@@ -9,13 +9,13 @@ const cafes = [
     {
         name: "Cafe Katha",
         address: "Cafe Kathaa, F C Road, Lane, opposite Hotel Vaishali, next to Old building of British Library, Ganeshwadi, Pune, Maharashtra 411004",
-        imageUrl: "/Main/Raw Images/Katha.jpg",
+        imageUrl: "Katha.jpg",
         mapUrl: "https://www.google.com/maps/place/Cafe+Kathaa/@18.520764,73.8379942,17z/data=!3m1!4b1!4m6!3m5!1s0x3bc2bf8e9410e745:0x574bbc1234760774!8m2!3d18.520764!4d73.8405691!16s%2Fg%2F11f9vjwq1l?authuser=0&entry=ttu&g_ep=EgoyMDI1MDIwNS4xIKXMDSoASAFQAw%3D%3D"
     },
     {
         name: "Cafe Buddy's Espresso",
         address: "Shivala Colony, Gurudwara Colony, Nigdi, Pimpri-Chinchwad, Maharashtra 411044",
-        imageUrl: "/Main/Raw Images/Cafe Buddy's Espresso.jpg",
+        imageUrl: "Cafe Buddy's Espresso.jpg",
         mapUrl: "https://www.google.com/maps/place/Cafe+Buddy's+Espresso+-+Ravet/@18.6445108,73.7574615,3a,75y,90t/data=!3m8!1e2!3m6!1sAF1QipOzna4uqrzeGkqsaaiTWbHs-daolh3SBN-Fd9LD!2e10!3e12!6shttps:%2F%2Flh5.googleusercontent.com%2Fp%2FAF1QipOzna4uqrzeGkqsaaiTWbHs-daolh3SBN-Fd9LD%3Dw114-h86-k-no!7i8384!8i6288!4m7!3m6!1s0x3bc2b9f1b1b7fee5:0xe4b6dc9b2fe4b413!8m2!3d18.6445108!4d73.7574615!10e5!16s%2Fg%2F11b6s5qm0x?authuser=0&entry=ttu&g_ep=EgoyMDI1MDIwNS4xIKXMDSoASAFQAw%3D%3D"
     },
 
@@ -23,20 +23,20 @@ const cafes = [
     {
       name: "Camp Burger",
       address: "2394, East St, Solapur Bazar, Camp, Pune, Maharashtra 411001",
-      imageUrl: "/Main/Raw Images/camp.jpg",
+      imageUrl: "camp.jpg",
       mapUrl: "https://www.google.com/maps/place/Cafe+Buddy's+Espresso+-+Ravet/@18.6445108,73.7574615,3a,75y,90t/data=!3m8!1e2!3m6!1sAF1QipOzna4uqrzeGkqsaaiTWbHs-daolh3SBN-Fd9LD!2e10!3e12!6shttps:%2F%2Flh5.googleusercontent.com%2Fp%2FAF1QipOzna4uqrzeGkqsaaiTWbHs-daolh3SBN-Fd9LD%3Dw114-h86-k-no!7i8384!8i6288!4m7!3m6!1s0x3bc2b9f1b1b7fee5:0xe4b6dc9b2fe4b413!8m2!3d18.6445108!4d73.7574615!10e5!16s%2Fg%2F11b6s5qm0x?authuser=0&entry=ttu&g_ep=EgoyMDI1MDIwNS4xIKXMDSoASAFQAw%3D%3D"
   },
 
   {
     name: "Crazy Cheesy",
     address: "Crazy Cheesy, Khau Galli, 861, Barister Gadgil Rd, Sadashiv Peth, Pune, Maharashtra 411030",
-    imageUrl: "/Main/Raw Images/Crazy.jpg",
+    imageUrl: "Crazy.jpg",
     mapUrl: "https://www.google.com/maps/place/Cafe+Kathaa/@18.520764,73.8379942,17z/data=!3m1!4b1!4m6!3m5!1s0x3bc2bf8e9410e745:0x574bbc1234760774!8m2!3d18.520764!4d73.8405691!16s%2Fg%2F11f9vjwq1l?authuser=0&entry=ttu&g_ep=EgoyMDI1MDIwNS4xIKXMDSoASAFQAw%3D%3D"
 },
 {
     name: "Cafe Buddy's Espresso",
     address: "Shivala Colony, Gurudwara Colony, Nigdi, Pimpri-Chinchwad, Maharashtra 411044",
-    imageUrl: "/Main/Raw Images/Cafe Buddy's Espresso.jpg",
+    imageUrl: "Cafe Buddy's Espresso.jpg",
     mapUrl: "https://www.google.com/maps/place/Cafe+Buddy's+Espresso+-+Ravet/@18.6445108,73.7574615,3a,75y,90t/data=!3m8!1e2!3m6!1sAF1QipOzna4uqrzeGkqsaaiTWbHs-daolh3SBN-Fd9LD!2e10!3e12!6shttps:%2F%2Flh5.googleusercontent.com%2Fp%2FAF1QipOzna4uqrzeGkqsaaiTWbHs-daolh3SBN-Fd9LD%3Dw114-h86-k-no!7i8384!8i6288!4m7!3m6!1s0x3bc2b9f1b1b7fee5:0xe4b6dc9b2fe4b413!8m2!3d18.6445108!4d73.7574615!10e5!16s%2Fg%2F11b6s5qm0x?authuser=0&entry=ttu&g_ep=EgoyMDI1MDIwNS4xIKXMDSoASAFQAw%3D%3D"
 },
 
@@ -44,7 +44,7 @@ const cafes = [
 {
   name: "Cafe Rich",
   address: "Firste Floor, Blooming Dale, beside Domino's Pizza, Sector 32 A, Ravet, Pune, Pimpri-Chinchwad, Maharashtra 412101",
-  imageUrl: "/Main/Raw Images/Rich Cafe.jpg",
+  imageUrl: "Rich Cafe.jpg",
   mapUrl: "https://www.google.com/maps/place/RICH+CAFE/@18.6430166,73.7531822,17z/data=!3m1!4b1!4m6!3m5!1s0x3bc2b95ad5148ccd:0xde4babc0f1c0f943!8m2!3d18.6430166!4d73.7557571!16s%2Fg%2F11y468rdxn?entry=ttu&g_ep=EgoyMDI1MDIwNS4xIKXMDSoASAFQAw%3D%3D"
 },
 
